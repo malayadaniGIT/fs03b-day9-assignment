@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SELECT COLOR</title>
+    <style>
+        .color-red {
+            background-color: red;
+        }
+
+        .color-green {
+            background-color: green;
+        }
+
+        .color-blue {
+            background-color: blue;
+        }
+
+        .color-yellow {
+            background-color: yellow;
+        }
+
+        .color-orange {
+            background-color: orange;
+        }
+
+        .color-purple {
+            background-color: purple;
+        }
+
+        .color-pink {
+            background-color: pink;
+        }
+
+        .color-cyan {
+            background-color: cyan;
+        }
+
+        .color-magenta {
+            background-color: magenta;
+        }
+
+        .color-lime {
+            background-color: lime;
+        }
+    </style>
+</head>
+<body>
+    <h1>PLEASE SELECT COLOR</h1>
+    
+    <form>
+        <label for="color-select">Select a color to change text-box color:</label>
+        <select id="color-select" onchange="changeBackgroundColor()">
+            <option value="">choose</option>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="yellow">Yellow</option>
+            <option value="orange">Orange</option>
+            <option value="purple">Purple</option>
+            <option value="pink">Pink</option>
+            <option value="cyan">Cyan</option>
+            <option value="magenta">Magenta</option>
+            <option value="lime">Lime</option>
+        </select>
+        
+    
+        
+        <label for="text-box">Text Box:</label>
+        <input type="text" id="text-box" style="height: 100px;width: 500px;">
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>
